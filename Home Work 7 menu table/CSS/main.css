@@ -1,0 +1,315 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+main {
+     width: 880px;
+    margin: 0px auto;
+}
+
+h1 {
+    font-size: 48px;
+    color: #0051ac;
+}
+
+.menu-up {
+    display: block;
+    list-style: none;
+    padding: 0px;
+     background-color: #cfcfcf;
+margin: 0px;
+}
+
+.menu-up > li {
+    display: inline-block;
+    
+    
+}
+
+.menu-up >li>a:hover {
+    background-color: #afafaf;
+}
+.menu-up > li > a {
+    color: #000;
+    font-size: 20px;
+    line-height: 38px;
+    text-decoration: none;
+    background-color: #cfcfcf;
+    border-left: 2px solid #fff;
+    display: inline-block;
+    padding: 0px 4px;
+}
+ 
+.wid {
+    width: 150px;
+}
+
+
+.submenu_1  {
+    position: absolute;
+     padding: 0px;
+    z-index: 1;
+    display: none;
+}
+.submenu_1 > li {
+    
+   
+    list-style: none;
+    width: 175px;
+    height: 40px;
+    background-color: #cfcfcf;
+    border-top: 2px solid #fff;
+}
+
+.submenu_1 a {
+    width: 175px;
+    line-height: 40px;
+    color: #000;
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 22px;
+    
+}
+ .menu-up li:hover .submenu_1 {
+    display: block;
+    
+}
+.submenu_1 li:hover {
+    
+    background-color: #afafaf;
+}
+
+
+.menu_2 {
+    
+    padding: 0px;
+margin: 0px;
+    margin-top: 50px;
+list-style: none;
+display: block;
+background-color: #cfcfcf;
+}
+
+.menu_2 >li {
+    display: inline-block;
+    height: 38px;
+    
+}
+
+.menu_2 li > a {
+    text-decoration: none;
+font-size: 20px;
+color: #000;
+line-height: 38px;
+border-left: 2px solid #fff;
+display: block;
+width: 125px;
+text-align: center;
+    
+}
+
+
+
+.container_1 {
+    background-color: #cfcfcf;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+}
+
+.container_1 > ul {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.menu >li {
+    display: inline-block;
+}
+
+.menu >li >a {
+    width: 126px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #cfcfcf;
+    color: #000;
+    font-size: 20px;
+    line-height: 38px;
+    border-right:2px solid #fff;
+    text-align: center;
+    
+}
+a[rel="home"]:before {
+    content: url(../img/home.png);
+    position: relative;
+    top: 4px;
+    right: 10px;
+    z-index: 0;
+}
+
+
+
+.social {
+    float: right;
+    height: 38px;
+    margin-right: 5px;
+}
+
+.social >a {
+    height: 32px;
+    width: 32px;
+    background: url(../img/social-main.png) 0 0 no-repeat;
+    display: inline-block;
+    margin: 3px;
+   
+}
+
+.menu >li >a:hover {
+    
+    background-color: #afafaf;
+}
+
+ .social >.face {
+    background-position: 0px 0px;
+     transition: 0.3s ease-out 0.3s;
+    
+}
+.social >.twit {
+    background-position: -32px 0px;
+    transition: 0.3s ease-out 0.3s;
+    
+}
+.social >.google {
+    background-position: -64px 0px;
+    transition: 0.3s ease-out 0.3s;
+    
+}
+
+.social >.face:hover {
+    background-position: 0px -32px;
+    
+}
+.social >.twit:hover {
+    background-position: -32px -32px;
+    
+}
+.social >.google:hover {
+    background-position: -64px -32px;
+    
+}
+
+ul .submenu {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+     
+    
+}
+
+ul .submenu >li {
+    list-style-type: none;
+    position: relative;
+    display: none;
+}
+
+.submenu > li > a {
+    font-size: 20px;
+    text-decoration: none;
+    width: 175px;
+    text-align: center;
+    display: block;
+    color: #000;
+    background-color: #cfcfcf;
+    border: 1px solid #fff;
+    line-height: 38px;
+    position: relative;
+   
+    
+}
+ul.menu > li:hover  > ul.submenu > li {
+    display: block;
+   
+    
+}
+
+ul.submenu > li > a:hover {
+    background-color: #afafaf;
+}
+
+table {
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid #fff;
+   
+}
+
+table:before {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+tr {
+    background-color:#cfcfcf; 
+    height: 40px;
+}
+
+.tr_first {
+    font-weight: bold;
+    background-color:#afafaf; 
+}
+
+.tr_up>td:nth-child(3) {
+    text-align: right;
+    
+}
+
+.tr_up>td:nth-child(4) {
+    text-align: right;
+    
+}
+.tr_up>td:nth-child(5) {
+    text-align: right;
+    
+}
+
+.tr_1>td {
+    font-weight: bold;
+}
+
+
+.tr_2 >td:nth-child(3) {
+    text-align: right;
+    
+}
+.tr_2 >td:nth-child(4) {
+    text-align: right;
+    
+}
+.tr_2 >td:nth-child(5) {
+    text-align: right;
+    
+}
+
+.tr_3>td:last-child {
+    text-align: right;
+    
+}
+.tr_3>td:first-child {
+   text-align: left;
+    font-size: 20px;
+    font-family:monospace;
+    font-weight: bold;
+}
+.tr_3 td >img {
+    margin: 0px 10px;
+    height: 23px;
+    width: 25px;
+}
+
+h1:first-letter {
+   color: #e04f11;
+    
+}
